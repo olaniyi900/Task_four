@@ -22,7 +22,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #c8ecf7;
+    color: inherit;
 }
 
 ul{
@@ -36,12 +36,16 @@ ul li {
     padding: 0.5rem;
 
 }
+.fa-star{
+    color:#FBEC06;
+}
 
 /* content section */
 .content{
     display: flex;
     padding: 0 1.5rem;
     flex-direction: column;
+    color:#c8ecf7;
 }
 
 .blue{
@@ -60,12 +64,34 @@ ul li {
         background-color: #B3D4E0;
     }
 
+
+button{
+        display: block;
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: #c8ecf7;
+        background-color:#ED48BA;
+        border: none;
+        border-radius: 4px;
+    }
+
+    select {
+        background-color: #0392BF;
+        padding: 0.4rem 1.8rem;
+        color: #c8ecf7;
+        border: none;
+        border: 1px solid  rgba(200, 236, 247, 0.5);
+        margin-left: 0.5rem;
+    }
+
 .description{
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 
 .addres, .about, .choose{
@@ -84,7 +110,6 @@ ul li {
 .addres p{
     /* margin: 1rem 0; */
     padding: 0.5rem 0;
-    color: rgba(200, 236, 247, 0.5);
     font-weight: lighter;
 }
 
@@ -160,6 +185,7 @@ footer .social{
         grid-template-columns: 1fr 13fr;
         grid-template-rows: 1fr 9fr;
         height: 100vh;
+        color:#c8ecf7;
     }
     .header{
         overflow: hidden;
@@ -169,6 +195,7 @@ footer .social{
         grid-column-end: 3;
         grid-row: 1/2;
         background-color: #0392BF;
+        color:#c8ecf7;
     }
 
     .content{
@@ -181,6 +208,7 @@ footer .social{
         grid-column-end: 3;
         grid-row: 2/3;
         background-color: #0392BF;
+        color:#c8ecf7;
     }
 
     .img-div{
