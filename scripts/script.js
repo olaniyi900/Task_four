@@ -1,11 +1,11 @@
-let blue = document.querySelector('.blue');
-let pink = document.querySelector(".pink");
-let yellow = document.querySelector(".yellow");
-let gray = document.querySelector(".gray")
+let blue = document.querySelector('.blue'); // selecting div to change color to blue
+let pink = document.querySelector(".pink"); // selecting div to change color to pink
+let yellow = document.querySelector(".yellow"); // selecting div to change color to yellow
+let gray = document.querySelector(".gray") // selecting div to change color to grey
 let star = document.querySelector(".fa-star");
 
 
-
+// selecting header and body 
 let dm = [
   document.querySelector(".header"),
   document.querySelector("body"),
@@ -14,7 +14,7 @@ let dm = [
 
 
 
-
+// eventlistener to change background color to blue
   blue.addEventListener("click", function () {
     // let dm = [
     //   document.querySelector(".header"),
@@ -28,7 +28,7 @@ let dm = [
   });
 
 
-
+// eventlistener to change background color to pink
 pink.addEventListener("click", function () {
 
     for (let i = 0; i < dm.length; i++) {
@@ -39,7 +39,7 @@ pink.addEventListener("click", function () {
 });
 
 
-
+// eventlistener to change background color to yellow
 yellow.addEventListener("click", function () {
 
   for (let i = 0; i < dm.length; i++) {
@@ -50,7 +50,7 @@ yellow.addEventListener("click", function () {
   }
 );
 
-
+// eventlistener to change background color to grey
 gray.addEventListener("click", function () {
 
   for (let i = 0; i < dm.length; i++) {

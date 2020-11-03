@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* mobile sytling */
 body{
     max-height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -37,7 +37,7 @@ ul li {
 
 }
 .fa-star{
-    color:#FBEC06;
+    color: gold;
 }
 
 /* content section */
@@ -295,6 +295,7 @@ footer .social{
         width: 100%;
     }
     
+    /* color picker sytle */
     .blue{
         background-color: #0392BF;
     }
